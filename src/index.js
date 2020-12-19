@@ -2,16 +2,16 @@ const route = require('./route')
 
 module.exports = {
   bind: route.bind,
-  resource: route.resource,
-  middleware: require('./middleware'),
+  Controller: route.resource,
+  Middleware: require('./middleware'),
   /* Standard HTTP Methods */
-  get: route.get,
-  post: route.post,
-  put: route.put,
-  del: route.del,
-  delete: route.del,
-  head: route.head,
-  options: route.options,
-  trace: route.trace,
-  patch: route.patch
+  Get: route.get,
+  Post: route.post,
+  Put: route.put,
+  Del: route.del,
+  Delete: route.del,
+  Head: route.head,
+  Options: route.options,
+  Trace: route.trace,
+  Patch: route.patch
 }
